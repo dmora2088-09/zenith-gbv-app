@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Test Motor</title>
+  <script src="./motor.js"></script>
+</head>
+<body>
+  <h1>Test Motor VBM</h1>
+  <div id="result">Cargando...</div>
+  <script>
+    setTimeout(function() {
+      var result = document.getElementById('result');
+      if (typeof MotorVBM !== 'undefined' && MotorVBM) {
+        var sectores = Object.keys(MotorVBM.BENCHMARKS).length;
+        var metas = MotorVBM.CATALOGO_METAS.length;
+        result.innerHTML = '<p style="color:green">Motor cargado OK</p>' +
+          '<p>Sectores: ' + sectores + '</p>' +
+          '<p>Metas: ' + metas + '</p>' +
+          '<p>fmt(1234.56): ' + MotorVBM.fmt(1234.56) + '</p>';
+      } else {
+        result.innerHTML = '<p style="color:red">Motor NO cargado</p>';
+      }
+    }, 3000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,624 @@
+================================================================================
+ZENITH GBV — CATÁLOGO COMPLETO DE METAS Y ACCIONES ESTRATÉGICAS
+Total: 50 metas | Overrides (O) + Rentabilidad (R) + Liquidez (L) + Estructura (E) + Cruzadas (C)
+================================================================================
+
+
+████████████████████████████████████████████████████████████████████████████████
+  OVERRIDES + ESTRUCTURA (14 metas)
+████████████████████████████████████████████████████████████████████████████████
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: O1 | Prioridad: CRITICA
+  Nombre: Riesgo de Insolvencia: Cobertura de Intereses Crítica
+  Métrica: cobertura_intereses
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  La empresa no genera suficiente EBIT para cubrir 1.5× sus intereses. Esto activa covenants bancarios y cierra el acceso a nuevo crédito. Acción inmediata: renegociar plazos, reducir deuda o aumentar EBIT.
+
+  ── Mensaje al cliente ──
+  Tu negocio gana menos de lo que necesita para pagar los intereses de sus deudas con margen de seguridad. Esto es una señal de alerta roja.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: O3 | Prioridad: CRITICA
+  Nombre: Apalancamiento Insostenible: Deuda Neta / EBITDA > 4.5×
+  Métrica: deuda_neta_ebitda
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  El nivel de deuda neta supera 4.5× el EBITDA. Este ratio activa cláusulas de incumplimiento en créditos bancarios y hace virtualmente imposible obtener financiamiento adicional.
+
+  ── Mensaje al cliente ──
+  Tu deuda es más de 4.5 veces lo que genera tu negocio antes de intereses e impuestos. Eso es demasiado riesgo.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E01 | Prioridad: ALTA
+  Nombre: Reducir Apalancamiento: Deuda/Activos al Benchmark Verde
+  Métrica: deuda_activos
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Deuda/Activos en zona Roja. La estructura de capital destruye valor vía costo de intereses que supera el ROIC. Plan de amortización acelerada o capitalización de pasivos.
+
+  ── Mensaje al cliente ──
+  Demasiada parte de tu negocio está financiada con deuda. Eso es costoso y riesgoso.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E02 | Prioridad: ALTA
+  Nombre: Optimizar WACC: Mejorar Estructura de Financiamiento
+  Métrica: wacc
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  WACC superior al 20%. Optimizar la mezcla Deuda/Capital puede reducir el costo del capital. Evaluar fuentes alternativas de financiamiento (fondos de garantía, crowdfunding, equity).
+
+  ── Mensaje al cliente ──
+  El costo de usar el dinero de tu negocio es muy alto. Hay formas de financiarte más barato.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E03 | Prioridad: ALTA
+  Nombre: Reestructurar Deuda Sombra: Eliminar Tasas Agiotistas
+  Métrica: deuda_sombra
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Se detectó Deuda Sombra (FinTech alta tasa, tarjetas personales, agiotistas). Esta deuda tiene tasas 2-4× superiores al crédito formal y destruye el ROIC. Meta: eliminar en 90 días y sustituir con líneas formales.
+
+  ── Mensaje al cliente ──
+  Tienes deudas con tasas de interés muy altas (tarjetas personales, prestamistas). Eso te cuesta mucho más de lo necesario.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E04 | Prioridad: MEDIA
+  Nombre: Reducir Deuda/Patrimonio al Benchmark Verde
+  Métrica: deuda_patrimonio
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Ratio Deuda/Patrimonio sobre el benchmark. El apalancamiento excesivo amplifica pérdidas en ciclos bajos. Reducir pasivos o capitalizar reservas.
+
+  ── Mensaje al cliente ──
+  Por cada peso que pones tú en el negocio, debes demasiado a los bancos o proveedores.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E05 | Prioridad: MEDIA
+  Nombre: Aumentar Cobertura de Intereses al Benchmark Verde
+  Métrica: cobertura_intereses
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Cobertura de Intereses en zona Amarilla. Incrementar EBIT o refinanciar a tasa menor para alcanzar la zona Verde.
+
+  ── Mensaje al cliente ──
+  Tu negocio genera suficiente para pagar sus intereses, pero el margen de seguridad no es el ideal.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E06 | Prioridad: BAJA
+  Nombre: Migrar Deuda de Corto a Largo Plazo
+  Métrica: N/A
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Alta concentración de deuda en corto plazo. Restructurar a largo plazo reduce presión de liquidez y permite invertir en capital de trabajo con certeza.
+
+  ── Mensaje al cliente ──
+  Muchas de tus deudas vencen pronto. Negociar plazos más largos te da más tranquilidad financiera.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E07 | Prioridad: MEDIA
+  Nombre: Reducir Capital Invertido Innecesario: Liberar Activos Improductivos
+  Métrica: roic
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  ROIC<WACC. Evaluar si existen activos fijos subutilizados que puedan venderse o rentarse. Reducir Capital Invertido mejora el ROIC sin necesidad de aumentar NOPAT.
+
+  ── Mensaje al cliente ──
+  Parte del dinero y equipo invertido en tu negocio no está generando suficiente rendimiento. Quizás hay activos que podrías vender o rentar.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E08 | Prioridad: BAJA
+  Nombre: Evaluar Acceso a Fondos de Garantía NAFIN / INADEM
+  Métrica: N/A
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  PyME con apalancamiento medio-alto. Explorar programas NAFIN (crédito garantizado), Cadenas Productivas, o FIRA para sectores agro/manufactura. Reducen el Kd efectivo 2-4 pp.
+
+  ── Mensaje al cliente ──
+  Existen programas del gobierno que te pueden prestar dinero más barato. Vale la pena explorarlos con tu contador.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E09 | Prioridad: MEDIA
+  Nombre: Incrementar Capital Contable: Utilidades Retenidas vs. Retiro de Dividendos
+  Métrica: deuda_patrimonio
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Bajo nivel de utilidades retenidas vs capital social. Si la empresa mejora su ROIC, retener más utilidades en lugar de distribuirlas acelerará la creación de valor.
+
+  ── Mensaje al cliente ──
+  Reinvertir más ganancias en el negocio, en lugar de retirarlas, puede ayudarlo a crecer más sano.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E10 | Prioridad: BAJA
+  Nombre: Blindaje de Estructura: Mantener Deuda/Activos en Verde
+  Métrica: deuda_activos
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Estructura de capital en zona Verde. Meta de Blindaje: no superar el límite Verde en el próximo ciclo de crecimiento. Establecer política de endeudamiento máximo.
+
+  ── Mensaje al cliente ──
+  Tu nivel de deuda es adecuado. La meta es mantenerlo así aunque el negocio crezca.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E11 | Prioridad: ALTA
+  Nombre: Eliminar Atrasos SAT: Regularizar Situación Fiscal
+  Métrica: N/A
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  La empresa tiene atrasos con el SAT. Esto genera recargos de 1.47% mensual, bloquea acceso a crédito formal y expone a auditorías. Regularización urgente vía 'Facilidades de Pago' SAT.
+
+  ── Mensaje al cliente ──
+  Debes dinero al SAT. Eso genera intereses cada mes y puede bloquearte en bancos.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: E12 | Prioridad: MEDIA
+  Nombre: Construir Historial Crediticio Formal para Reducir Prima PyME
+  Métrica: wacc
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Empresa micro o informal con alta prima de riesgo (5%). Formalización progresiva, historial en Buró de Crédito Empresarial y estados financieros auditados pueden reducir la prima de riesgo y el WACC.
+
+  ── Mensaje al cliente ──
+  Al formalizar tu negocio y construir historial crediticio, podrás pedir prestado más barato en el futuro.
+
+
+████████████████████████████████████████████████████████████████████████████████
+  RENTABILIDAD (15 metas)
+████████████████████████████████████████████████████████████████████████████████
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: O4 | Prioridad: CRITICA
+  Nombre: Deterioro Estructural: EBITDA Negativo Sostenido
+  Métrica: margen_ebitda
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  EBITDA negativo: la operación destruye valor antes de intereses, impuestos y depreciación. El modelo de negocio debe ser restructurado.
+
+  ── Mensaje al cliente ──
+  Tu negocio está perdiendo dinero en su operación básica. Cada día que pasa, el problema se acumula.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: O6 | Prioridad: CRITICA
+  Nombre: Operación con Margen EBITDA Negativo
+  Métrica: margen_ebitda
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Margen EBITDA negativo: la empresa destruye valor incluso antes de financiamiento e impuestos.
+
+  ── Mensaje al cliente ──
+  El negocio no genera suficiente para cubrir ni sus costos operativos básicos.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: O7 | Prioridad: CRITICA
+  Nombre: Destrucción de Valor Sostenida: ROIC < WACC
+  Métrica: roic
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  El ROIC está por debajo del WACC. La empresa destruye valor económico aunque reporte utilidad contable. El patrimonio de los socios se erosiona silenciosamente.
+
+  ── Mensaje al cliente ──
+  Tu negocio gana menos de lo que le cuesta usar su propio dinero. Aunque veas ganancias en papel, en realidad estás perdiendo valor.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R01 | Prioridad: ALTA
+  Nombre: Aumentar Margen Bruto al Benchmark Verde
+  Métrica: margen_bruto
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  El margen bruto está por debajo del benchmark sectorial Verde. Palancas: revisar política de precios, renegociar con proveedores, mejorar mix de productos, reducir mermas.
+
+  ── Mensaje al cliente ──
+  Tu margen de ganancia por cada peso vendido está por debajo del promedio de tu industria.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R02 | Prioridad: ALTA
+  Nombre: Reducir Gastos de Operación (OPEX) para Alcanzar Margen Operativo Verde
+  Métrica: margen_operativo
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  El margen operativo (EBIT/Ventas) está por debajo del benchmark. Revisión de estructura de gastos administrativos y de ventas.
+
+  ── Mensaje al cliente ──
+  Tus gastos de operación están consumiendo demasiado de tus ganancias brutas.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R03 | Prioridad: MEDIA
+  Nombre: Elevar NOPAT mediante Optimización Fiscal (Régimen Adecuado)
+  Métrica: nopat
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Empresa con ventas <$35M en régimen ISR PM. Evaluar RESICO (25% efectivo vs 30%) para elevar NOPAT ~7%. Requiere validación contable.
+
+  ── Mensaje al cliente ──
+  Podrías pagar menos impuestos con el régimen fiscal correcto y así aumentar tu ganancia real.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R04 | Prioridad: ALTA
+  Nombre: Mejorar ROIC para Superar WACC (Crear Valor)
+  Métrica: roic
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  ROIC está por debajo del WACC. Meta: llevar el spread ROIC-WACC al menos a +2 pp mediante incremento de NOPAT o reducción de Capital Invertido.
+
+  ── Mensaje al cliente ──
+  Tu negocio necesita ser más rentable para que cada peso invertido en él valga más que en otra alternativa.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R05 | Prioridad: MEDIA
+  Nombre: Reducir COGS: Renegociar Proveedores o Mejorar Mix
+  Métrica: margen_bruto
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Margen Bruto en zona Roja. Renegociación urgente de proveedores o revisión de estructura de costos directos.
+
+  ── Mensaje al cliente ──
+  El costo de lo que vendes es demasiado alto. Debes conseguir mejores precios de tus proveedores.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R06 | Prioridad: MEDIA
+  Nombre: Imputar Sueldo Justo de Dirección para Diagnóstico Real
+  Métrica: margen_operativo
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  El propietario no se asigna salario de mercado. Sin imputar Sueldo Justo de Dirección, el ROIC y Margen Operativo están artificialmente inflados. El diagnóstico no es válido sin este ajuste.
+
+  ── Mensaje al cliente ──
+  No te estás pagando lo que vale tu trabajo. Cuando consideramos un sueldo justo para ti, el negocio puede ser menos rentable de lo que parece.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R07 | Prioridad: MEDIA
+  Nombre: Alcanzar Punto de Equilibrio en Ventas
+  Métrica: ventas
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Las ventas actuales están por debajo del Punto de Equilibrio. La empresa opera con pérdida operativa. Meta: alcanzar PE en pesos y reducir días de PE.
+
+  ── Mensaje al cliente ──
+  Todavía no vendes suficiente para cubrir todos tus costos fijos. Necesitas aumentar tus ventas.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R08 | Prioridad: BAJA
+  Nombre: Aumentar Ingresos No Operativos o Eliminar Gastos No Recurrentes
+  Métrica: margen_neto
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Los gastos no operativos superan los ingresos no operativos, deprimiendo la utilidad neta sin relación con la operación central.
+
+  ── Mensaje al cliente ──
+  Tienes gastos fuera de tu negocio principal que están reduciendo tu ganancia final.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R09 | Prioridad: MEDIA
+  Nombre: Elevar EBITDA al Nivel Benchmark Verde
+  Métrica: margen_ebitda
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  EBITDA por debajo del benchmark Verde. Revisión de estructura operativa para alcanzar el umbral sectorial.
+
+  ── Mensaje al cliente ──
+  Tu generación de efectivo operativo está por debajo del promedio de negocios similares.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R10 | Prioridad: BAJA
+  Nombre: Blindaje Competitivo: Mantener Margen Bruto en Verde
+  Métrica: margen_bruto
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Margen Bruto en zona Verde. Meta de Blindaje: proteger este nivel ante presiones de proveedores o competencia de precios. Establecer revisión trimestral.
+
+  ── Mensaje al cliente ──
+  Tu margen de ganancia es bueno. La meta es protegerlo y que se mantenga así.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R11 | Prioridad: MEDIA
+  Nombre: Mejorar Z-Score Altman: Reducir Riesgo de Quiebra
+  Métrica: z_score
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Z-Score Altman en zona de alerta o quiebra (<2.6). El modelo estadístico señala riesgo sistémico. Requiere mejora de Capital de Trabajo y Utilidades Retenidas.
+
+  ── Mensaje al cliente ──
+  Un indicador estadístico señala que tu negocio tiene mayor riesgo del que debería. Necesitamos fortalecer sus bases financieras.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: R12 | Prioridad: BAJA
+  Nombre: Maximizar NOPCAF: Flujo de Caja Real Post-CAPEX
+  Métrica: nopcaf
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  El NOPCAF (Flujo Operativo Real) es significativamente inferior al NOPAT. El CAPEX y/o cambios en KTNO están consumiendo el flujo contable. ⚠️ El EBITDA exagera la generación de efectivo disponible.
+
+  ── Mensaje al cliente ──
+  El dinero que realmente queda en tu negocio después de inversiones es mucho menor de lo que muestran las ganancias en papel.
+
+
+████████████████████████████████████████████████████████████████████████████████
+  LIQUIDEZ (14 metas)
+████████████████████████████████████████████████████████████████████████████████
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: O2 | Prioridad: CRITICA
+  Nombre: Insolvencia Técnica: Razón Corriente Crítica
+  Métrica: razon_corriente
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Los activos circulantes no alcanzan a cubrir los pasivos de corto plazo. La empresa puede no pagar proveedores o nómina en los próximos meses. Requiere inyección de capital o liquidación urgente de inventario.
+
+  ── Mensaje al cliente ──
+  Lo que tu negocio tiene disponible en el corto plazo no alcanza para pagar lo que debe en el corto plazo. Debes actuar de inmediato.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: O5 | Prioridad: CRITICA
+  Nombre: Crisis de Caja: Menos de 15 Días de Operación
+  Métrica: dias_caja
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  La empresa tiene menos de 15 días de caja para operar. Cualquier retraso en cobros o pago de nómina genera incumplimiento inmediato.
+
+  ── Mensaje al cliente ──
+  Tienes dinero en caja para operar menos de 15 días. Necesitas liquidez urgente.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L01 | Prioridad: ALTA
+  Nombre: Reducir Ciclo de Conversión de Efectivo (CCC) al Benchmark Verde
+  Métrica: ccc
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  CCC sobre benchmark Verde. Reducir CCC libera capital de trabajo que reduce la necesidad de financiamiento o permite reinversión en crecimiento.
+
+  ── Mensaje al cliente ──
+  Tu dinero tarda demasiado en completar el ciclo de compra-venta-cobro. Acelerar este ciclo libera efectivo sin pedir prestado.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L02 | Prioridad: ALTA
+  Nombre: Reducir DSO: Cobrar Más Rápido
+  Métrica: dso
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  DSO sobre benchmark Verde. Implementar descuentos por pronto pago, factoraje, o políticas de cobranza activas. Cada día de DSO reducido libera capital.
+
+  ── Mensaje al cliente ──
+  Tus clientes te pagan demasiado tarde. Cobrar más rápido es como conseguir un préstamo gratis.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L03 | Prioridad: ALTA
+  Nombre: Reducir DOH: Rotar Inventario Más Rápido
+  Métrica: doh
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  DOH sobre benchmark Verde. El inventario inmoviliza capital con costo. Estrategias: just-in-time, eliminación de SKUs de baja rotación, ofertas de liquidación.
+
+  ── Mensaje al cliente ──
+  Tu inventario tarda demasiado en venderse. El dinero atrapado en bodegas podría estar trabajando para ti.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L04 | Prioridad: MEDIA
+  Nombre: Aumentar DPO: Negociar Más Días con Proveedores
+  Métrica: dpo
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  DPO por debajo del benchmark Verde. Negociar plazos más amplios con proveedores sin sacrificar descuentos por volumen es financiamiento gratuito.
+
+  ── Mensaje al cliente ──
+  Puedes negociar pagar a tus proveedores en más días. Eso te da más tiempo para usar ese dinero en tu operación.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L05 | Prioridad: MEDIA
+  Nombre: Aumentar Días de Caja: Construir Colchón de Liquidez
+  Métrica: dias_caja
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Días de Caja por debajo de 30. Construir reserva equivalente a 30-45 días de gastos operativos es la primera línea de defensa ante shocks de demanda.
+
+  ── Mensaje al cliente ──
+  Necesitas tener más dinero disponible como reserva. Lo ideal es tener al menos un mes de gastos en el banco.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L06 | Prioridad: MEDIA
+  Nombre: Mejorar Razón Corriente al Umbral Verde
+  Métrica: razon_corriente
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Razón Corriente en zona Amarilla. Mejorar el balance de corto plazo mediante manejo óptimo de KTNO.
+
+  ── Mensaje al cliente ──
+  Tienes capacidad de cubrir tus deudas de corto plazo, pero con poco margen. Es prudente mejorar este colchón.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L07 | Prioridad: MEDIA
+  Nombre: Mejorar Prueba Ácida: Liquidez sin Depender del Inventario
+  Métrica: prueba_acida
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Prueba Ácida por debajo del benchmark. Sin contar el inventario, la empresa tiene dificultades para cubrir pasivos inmediatos. Reducir inventario y acelerar cobros.
+
+  ── Mensaje al cliente ──
+  Si sacamos del cálculo tu inventario (que tarda en venderse), tu liquidez se ve débil.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L08 | Prioridad: ALTA
+  Nombre: Implementar Factoraje para Acelerar Cobros (DSO en Rojo)
+  Métrica: dso
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  DSO en zona Roja. Evaluar factoraje financiero (Konfío, BBVA Supplier, cadenas productivas) para monetizar cartera vencida. El costo del factoraje suele ser menor al costo del capital de trabajo.
+
+  ── Mensaje al cliente ──
+  Tus clientes te pagan muy tarde. Hay servicios financieros que te permiten cobrar antes a cambio de una pequeña comisión.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L09 | Prioridad: MEDIA
+  Nombre: Reducir Inventario Obsoleto o de Baja Rotación
+  Métrica: doh
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  DOH en zona Roja. Realizar levantamiento de inventario para identificar SKUs de baja rotación. Liquidar con descuento es mejor que financiar inventario muerto.
+
+  ── Mensaje al cliente ──
+  Tienes mucho inventario que no se vende rápido. Eso es dinero dormido que te cuesta.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L10 | Prioridad: BAJA
+  Nombre: Optimizar CCC Integral: Atacar los Tres Componentes Simultáneamente
+  Métrica: ccc
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Los tres componentes del CCC (DSO, DOH, DPO) están fuera del benchmark. Se recomienda plan integral de 90 días atacando los tres simultáneamente.
+
+  ── Mensaje al cliente ──
+  Tanto en cobros, inventario, como en pagos a proveedores hay oportunidad de mejora. Un plan integrado liberará mucho efectivo.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L11 | Prioridad: BAJA
+  Nombre: Separar Cuentas Personales y Empresariales (PyME Informal)
+  Métrica: N/A
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Empresa informal con mezcla de gastos personales y empresariales. La separación de cuentas es el primer paso para un diagnóstico válido y para acceder a crédito formal.
+
+  ── Mensaje al cliente ──
+  Mezclar gastos personales con los del negocio hace imposible saber si tu empresa realmente gana dinero.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: L12 | Prioridad: MEDIA
+  Nombre: Reducir Días de Caja Comprometida en Deuda de Corto Plazo
+  Métrica: dias_caja
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Alta concentración de deuda en corto plazo versus caja disponible. Negociar refinanciamiento a largo plazo para reducir presión de liquidez inmediata.
+
+  ── Mensaje al cliente ──
+  Tienes muchas deudas que vencen pronto y poca caja para hacerles frente. Hay que reestructurar esos pagos.
+
+
+████████████████████████████████████████████████████████████████████████████████
+  ESTRATEGIAS CRUZADAS (7 metas)
+████████████████████████████████████████████████████████████████████████████████
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: C01 | Prioridad: ALTA
+  Nombre: Estrategia Integral de Creación de Valor: ROIC > WACC en 12 Meses
+  Métrica: roic
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Plan integral: simultáneamente mejorar Margen Bruto (+2pp), reducir CCC (liberando KTNO), y revisar Activos Fijos improductivos. Las tres palancas en paralelo crean el efecto multiplicador necesario para cruzar el umbral ROIC=WACC.
+
+  ── Mensaje al cliente ──
+  Para que tu negocio empiece a crear valor de verdad, hay que trabajar en tres frentes al mismo tiempo: ganar más, cobrar más rápido y usar mejor los recursos.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: C02 | Prioridad: ALTA
+  Nombre: Normalización Completa: PyME Informal hacia Formalización
+  Métrica: N/A
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Hoja de ruta de formalización: RFC activo, IMSS regularizado, estados financieros anuales, cuenta bancaria empresarial separada, RFC facturación electrónica. Cada paso amplía el acceso a crédito y reduce el Kd.
+
+  ── Mensaje al cliente ──
+  Formalizar tu negocio paso a paso te abre puertas: más crédito, menos impuestos inesperados, mejor imagen ante clientes grandes.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: C03 | Prioridad: MEDIA
+  Nombre: Palanca de Precios: Incremento Selectivo sin Perder Volumen
+  Métrica: margen_bruto
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  La presión en márgenes combinada con ROIC<WACC requiere revisión de política de precios. Incremento selectivo en SKUs de mayor demanda inelástica puede recuperar 2-3 pp de Margen Bruto sin impacto en volumen.
+
+  ── Mensaje al cliente ──
+  Subir precio en los productos que más vendes y que tus clientes más necesitan puede mejorar mucho tus ganancias sin perder ventas.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: C04 | Prioridad: MEDIA
+  Nombre: Reducir Capital de Trabajo Neto Operativo (KTNO): Ciclo Virtuoso
+  Métrica: ktno
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  KTNO representa >20% de ventas con CCC elevado. Reducir KTNO 5pp de ventas libera capital con costo igual al WACC. Plan: cobrar 10 días antes, pagar 10 días después, reducir inventario 15%.
+
+  ── Mensaje al cliente ──
+  Tienes demasiado dinero atrapado en el ciclo operativo del negocio. Liberarlo es como conseguir financiamiento gratis.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: C05 | Prioridad: BAJA
+  Nombre: Diagnóstico de Autoempleo vs Empresa: Decisión Estratégica
+  Métrica: margen_operativo
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  Tras imputar el Sueldo Justo de Dirección, el Margen Operativo es negativo. El propietario no está construyendo una empresa: está comprando un autoempleo escasamente remunerado. La decisión estratégica es: escalar el negocio (contratar, sistematizar, vender más) o redefinir el modelo.
+
+  ── Mensaje al cliente ──
+  Cuando consideramos lo que te deberías pagar por tu trabajo, el negocio no cubre ni eso. Tienes que decidir si vas a crecer el negocio o si hay un modelo diferente que funcione mejor.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: C06 | Prioridad: BAJA
+  Nombre: Advertencia EBITDA vs NOPCAF: No Confundir Margen con Caja
+  Métrica: nopcaf
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  ⚠️ ADVERTENCIA TÉCNICA: El EBITDA de este sector/empresa subestima materialmente el consumo de caja por CAPEX de mantenimiento. El NOPCAF (flujo real) es el indicador correcto de generación de efectivo. No basar decisiones de deuda en EBITDA.
+
+  ── Mensaje al cliente ──
+  El número de ganancias que ves en tu estado de resultados no es el dinero que realmente queda disponible. Las inversiones en equipo e instalaciones lo reducen significativamente.
+
+────────────────────────────────────────────────────────────────────────────────
+  ID: C07 | Prioridad: MEDIA
+  Nombre: Plan de 90 Días: Mejora Rápida de EVA por Reducción de KTNO
+  Métrica: ccc
+────────────────────────────────────────────────────────────────────────────────
+
+  ACCIONES ESTRATÉGICAS (texto_consultor):
+  EVA negativo + CCC en Rojo = oportunidad de mejora rápida. Plan de 90 días: cobrar 15 días antes, liquidar inventario slow-movers, negociar 15 días adicionales con 2 proveedores clave. Impacto en EVA: visible en el primer trimestre.
+
+  ── Mensaje al cliente ──
+  En 90 días podemos mejorar significativamente el valor de tu negocio solo con disciplina en cobros y pagos, sin invertir un solo peso.

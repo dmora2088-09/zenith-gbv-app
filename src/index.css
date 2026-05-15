@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Zenith GBV: Paleta Institucional Light Mode */
+    --background: 220 14% 97%;
+    --foreground: 220 25% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 15%;
+    --primary: 215 68% 18%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 25% 15%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 215 68% 18%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 4 60% 47%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 90%;
+    --input: 220 13% 90%;
+    --ring: 215 68% 18%;
+    --radius: 0.625rem;
+    --sidebar-background: 220 35% 12%;
+    --sidebar-foreground: 220 13% 75%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 220 35% 12%;
+    --sidebar-accent: 220 25% 18%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 25% 20%;
+    --sidebar-ring: 215 68% 30%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #f5f6f8;
+    color: #1a2332;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+@layer components {
+  /* Zenith: Estilos de componentes institucionales */
+  .zn-card {
+    @apply bg-white rounded-lg border border-[#e8ebf0] shadow-card;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .zn-card:hover {
+    box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.08), 0 4px 10px -6px rgb(0 0 0 / 0.02);
+  }
+
+  .zn-card-header {
+    @apply px-5 py-4 border-b border-[#e8ebf0] flex items-center justify-between;
+  }
+
+  .zn-card-title {
+    @apply text-sm font-semibold text-navy-900 tracking-tight;
+  }
+
+  .zn-card-body {
+    @apply p-5;
+  }
+
+  .zn-metric-value {
+    @apply text-2xl font-bold text-navy-900 tracking-tight;
+  }
+
+  .zn-metric-label {
+    @apply text-xs font-medium text-[#6b7a8d] uppercase tracking-wider;
+  }
+
+  .zn-metric-unit {
+    @apply text-sm font-normal text-[#6b7a8d] ml-0.5;
+  }
+
+  /* Estados V/A/R institucionales */
+  .zn-status-verde {
+    @apply bg-success-light text-success border border-success/20;
+  }
+
+  .zn-status-amarillo {
+    @apply bg-warning-light text-warning-dark border border-warning/20;
+  }
+
+  .zn-status-rojo {
+    @apply bg-danger-light text-danger border border-danger/20;
+  }
+
+  /* Input institucional */
+  .zn-input {
+    @apply h-9 px-3 rounded-md border border-[#d1d8e2] bg-white text-sm text-navy-900
+           placeholder:text-[#9ba5b3] transition-all duration-150
+           focus:outline-none focus:ring-2 focus:ring-steel-400/30 focus:border-steel-400;
+  }
+
+  /* Select institucional */
+  .zn-select {
+    @apply h-9 px-3 pr-8 rounded-md border border-[#d1d8e2] bg-white text-sm text-navy-900
+           focus:outline-none focus:ring-2 focus:ring-steel-400/30 focus:border-steel-400
+           appearance-none cursor-pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b7a8d' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+
+  /* Tabla institucional */
+  .zn-table th {
+    @apply px-4 py-2.5 text-left text-xs font-semibold text-[#6b7a8d] uppercase tracking-wider
+           bg-pearl border-b border-[#e8ebf0];
+  }
+
+  .zn-table td {
+    @apply px-4 py-3 text-sm text-navy-800 border-b border-[#f0f2f5];
+  }
+
+  .zn-table tr:hover td {
+    @apply bg-[#f8f9fb];
+  }
+
+  /* Boton primario institucional */
+  .zn-btn-primary {
+    @apply inline-flex items-center justify-center h-9 px-4 rounded-md
+           bg-navy-900 text-white text-sm font-medium
+           hover:bg-navy-800 active:bg-navy-950
+           transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-navy-900/30;
+  }
+
+  .zn-btn-secondary {
+    @apply inline-flex items-center justify-center h-9 px-4 rounded-md
+           bg-white text-navy-800 text-sm font-medium border border-[#d1d8e2]
+           hover:bg-pearl hover:border-[#b8c0cc]
+           transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-navy-900/20;
+  }
+
+  /* Badge de semaforo */
+  .zn-badge-verde {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full
+           bg-success-light text-success text-xs font-medium;
+  }
+
+  .zn-badge-amarillo {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full
+           bg-warning-light text-warning-dark text-xs font-medium;
+  }
+
+  .zn-badge-rojo {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full
+           bg-danger-light text-danger text-xs font-medium;
+  }
+
+  /* Scrollbar refinada */
+  .zn-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .zn-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .zn-scrollbar::-webkit-scrollbar-thumb {
+    background: #c8cdd5;
+    border-radius: 3px;
+  }
+
+  .zn-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #9ba5b3;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   ESTILOS PARA REPORTES PDF (react-to-pdf)
+   Los reportes usan una clase especial que los oculta visualmente
+   en la UI pero permite que la librería los capture para PDF.
+   ════════════════════════════════════════════════════════════════ */
+
+.hidden-pdf-report {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 816px; /* Letter width in px at 96dpi */
+  visibility: hidden;
+  overflow: hidden;
+}
+
+/* Cuando react-to-pdf captura, fuerza visibilidad */
+[data-r2p] .hidden-pdf-report,
+[data-r2p-container] .hidden-pdf-report {
+  position: static;
+  left: auto;
+  top: auto;
+  visibility: visible;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   @MEDIA PRINT — Reglas para impresión de reportes
+   ════════════════════════════════════════════════════════════════ */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    background: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  #sidebar, #header, nav, button, .no-print {
+    display: none !important;
+  }
+}
